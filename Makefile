@@ -1,3 +1,3 @@
-VER=1.0.16
+VER=3.5.2
 build:
-	docker build . -t garmindb -t asdlfkj31h/garmindb:${VER} -t asdlfkj31h/garmindb:latest
+	docker build . -t garmindb -t czechnorris/garmindb:${VER} -t czechnorris/garmindb:latest
